@@ -1,0 +1,39 @@
+18:46:00.876 Xcode[4489:307393] Beginning test session FirstDemoUITests-B2805715-B948-4292-AF0F-8946EE9524CE at 2017-05-06 18:46:00.876 with Xcode 8E2002 on target <DVTiPhoneSimulator: 0x7f83ebfe8160> {
+		SimDevice: SimDevice : iPhone 6 (DA85F919-1D45-442E-8023-4FC00A6F9252) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.3 (14E269) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }
+} (10.3 (14E269))
+18:46:00.876 Xcode[4489:307393] Launching with Xcode.DebuggerFoundation.Launcher.LLDB
+18:46:00.876 Xcode[4489:2539328] Sim iPhone 6: Unregistering for sim device notification with token 54
+18:46:00.876 Xcode[4489:2539328] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+18:46:00.877 Xcode[4489:2539328] Sim iPhone 6 has testmanagerd socket at /private/tmp/com.apple.launchd.EGzxlXSITG/com.apple.testmanagerd.unix-domain.socket
+18:46:00.877 Xcode[4489:2539328] Validating test connection socket path (/private/tmp/com.apple.launchd.EGzxlXSITG/com.apple.testmanagerd.unix-domain.socket)
+18:46:00.877 Xcode[4489:2539328] Constructing transport for test connection socket
+18:46:00.877 Xcode[4489:2539328] Connected socket 160 to testmanagerd for Sim iPhone 6
+18:46:00.877 Xcode[4489:2539328] Received connection for test runner session
+18:46:00.877 Xcode[4489:2539328] Listening for proxy connection request from the test bundle
+18:46:00.877 Xcode[4489:2539328] Initiating session with identifier: B2805715-B948-4292-AF0F-8946EE9524CE
+18:46:00.881 Xcode[4489:307393] Received Ready from iOSSimulator
+18:46:00.881 Xcode[4489:307393] Sending notification: NSConcreteNotification 0x7f83cd97cbf0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "DA85F919-1D45-442E-8023-4FC00A6F9252";
+}}
+18:46:00.881 Xcode[4489:307393] Received Ready from iOSSimulator
+18:46:00.881 Xcode[4489:307393] Sending notification: NSConcreteNotification 0x7f83cdfaf310 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "DA85F919-1D45-442E-8023-4FC00A6F9252";
+}}
+18:46:00.891 Xcode[4489:307393] Test runner session acquired connection.
+18:46:00.891 Xcode[4489:307393] Waiting for test process to launch.
+18:46:01.384 Xcode[4489:2544042] Got reply to session initiation request with identifier B2805715-B948-4292-AF0F-8946EE9524CE (result:error): 22: (null)
+18:46:03.937 Xcode[4489:307393] Received Ready from iOSSimulator
+18:46:03.937 Xcode[4489:307393] Sending notification: NSConcreteNotification 0x7f83c6c4d910 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "DA85F919-1D45-442E-8023-4FC00A6F9252";
+}}
+18:46:03.940 Xcode[4489:2544083] DA85F919-1D45-442E-8023-4FC00A6F9252: Registered for sim device notification, got token 55
+18:46:03.940 Xcode[4489:2544043] DA85F919-1D45-442E-8023-4FC00A6F9252: Unregistering for sim device notification with token 55
+18:46:03.941 Xcode[4489:2544043] DA85F919-1D45-442E-8023-4FC00A6F9252: Installing app at path: /Users/tlai3/Test-Driven-iOS-Development-with-Swift-3/My Work/FirstDemo/DerivedData/FirstDemo/Build/Products/Debug-iphonesimulator/FirstDemo.app and options: {
+    CFBundleIdentifier = "com.tomclai.FirstDemo";
+}
+18:46:03.947 Xcode[4489:307393] Received Ready from iOSSimulator
+18:46:03.947 Xcode[4489:307393] Sending notification: NSConcreteNotification 0x7f83cdf73db0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "DA85F919-1D45-442E-8023-4FC00A6F9252";
+}}
+18:46:06.285 Xcode[4489:307393] Test operation failure: Test operation was canceled.
+18:46:06.285 Xcode[4489:307393] _finishWithError:Error Domain=IDETestOperationsObserverErrorDomain Code=4 "Test operation was canceled." UserInfo={NSLocalizedDescription=Test operation was canceled.} didCancel: 1

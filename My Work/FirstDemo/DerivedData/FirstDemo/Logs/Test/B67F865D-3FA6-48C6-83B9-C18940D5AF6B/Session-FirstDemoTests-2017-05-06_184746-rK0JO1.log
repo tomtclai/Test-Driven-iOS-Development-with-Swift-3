@@ -1,0 +1,282 @@
+18:47:46.651 Xcode[4489:307393] Beginning test session FirstDemoTests-8255BA99-86AC-4783-8876-4D59FD69CEF2 at 2017-05-06 18:47:46.651 with Xcode 8E2002 on target <DVTiPhoneSimulator: 0x7f83ebfe8160> {
+		SimDevice: SimDevice : iPhone 6 (DA85F919-1D45-442E-8023-4FC00A6F9252) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.3 (14E269) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }
+} (10.3 (14E269))
+18:47:46.651 Xcode[4489:307393] Launching with Xcode.DebuggerFoundation.Launcher.LLDB
+18:47:46.652 Xcode[4489:2544845] Sim iPhone 6: Unregistering for sim device notification with token 63
+18:47:46.652 Xcode[4489:2544845] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+18:47:46.652 Xcode[4489:2544845] Sim iPhone 6 has testmanagerd socket at /private/tmp/com.apple.launchd.EGzxlXSITG/com.apple.testmanagerd.unix-domain.socket
+18:47:46.652 Xcode[4489:2544845] Validating test connection socket path (/private/tmp/com.apple.launchd.EGzxlXSITG/com.apple.testmanagerd.unix-domain.socket)
+18:47:46.652 Xcode[4489:2544845] Constructing transport for test connection socket
+18:47:46.652 Xcode[4489:2544845] Connected socket 157 to testmanagerd for Sim iPhone 6
+18:47:46.652 Xcode[4489:2544845] Received connection for test runner session
+18:47:46.653 Xcode[4489:2544845] Listening for proxy connection request from the test bundle
+18:47:46.653 Xcode[4489:2544845] Initiating session with identifier: 8255BA99-86AC-4783-8876-4D59FD69CEF2
+18:47:46.666 Xcode[4489:307393] Received Ready from iOSSimulator
+18:47:46.666 Xcode[4489:307393] Sending notification: NSConcreteNotification 0x7f83e0c17d50 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "DA85F919-1D45-442E-8023-4FC00A6F9252";
+}}
+18:47:46.666 Xcode[4489:307393] Received Ready from iOSSimulator
+18:47:46.666 Xcode[4489:307393] Sending notification: NSConcreteNotification 0x7f83cdfaa6b0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "DA85F919-1D45-442E-8023-4FC00A6F9252";
+}}
+18:47:46.686 Xcode[4489:307393] Test runner session acquired connection.
+18:47:46.686 Xcode[4489:307393] Waiting for test process to launch.
+18:47:48.283 Xcode[4489:2549914] Got reply to session initiation request with identifier 8255BA99-86AC-4783-8876-4D59FD69CEF2 (result:error): 22: (null)
+18:47:48.729 Xcode[4489:307393] Launch session started.
+18:47:48.783 Xcode[4489:307393] Received Ready from iOSSimulator
+18:47:48.783 Xcode[4489:307393] Sending notification: NSConcreteNotification 0x7f83cbc43210 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "DA85F919-1D45-442E-8023-4FC00A6F9252";
+}}
+18:47:48.792 Xcode[4489:2544257] DA85F919-1D45-442E-8023-4FC00A6F9252: Registered for sim device notification, got token 65
+18:47:48.792 Xcode[4489:2549894] DA85F919-1D45-442E-8023-4FC00A6F9252: Unregistering for sim device notification with token 65
+18:47:48.794 Xcode[4489:307393] Adding console adaptor <IDEConsoleAdaptor: 0x7f83cde5dbc0 'target'> for test session 8255BA99-86AC-4783-8876-4D59FD69CEF2.
+18:47:48.794 Xcode[4489:2549841] DA85F919-1D45-442E-8023-4FC00A6F9252: Installing app at path: /Users/tlai3/Test-Driven-iOS-Development-with-Swift-3/My Work/FirstDemo/DerivedData/FirstDemo/Build/Products/Debug-iphonesimulator/FirstDemo.app and options: {
+    CFBundleIdentifier = "com.tomclai.FirstDemo";
+}
+18:47:48.794 Xcode[4489:307393] Received Ready from iOSSimulator
+18:47:48.794 Xcode[4489:307393] Sending notification: NSConcreteNotification 0x7f83cbe3a9a0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "DA85F919-1D45-442E-8023-4FC00A6F9252";
+}}
+18:47:53.404 Xcode[4489:2549841] DA85F919-1D45-442E-8023-4FC00A6F9252: Installed app at path: /Users/tlai3/Test-Driven-iOS-Development-with-Swift-3/My Work/FirstDemo/DerivedData/FirstDemo/Build/Products/Debug-iphonesimulator/FirstDemo.app and options: {
+    CFBundleIdentifier = "com.tomclai.FirstDemo";
+}
+18:47:53.406 Xcode[4489:2549841] DA85F919-1D45-442E-8023-4FC00A6F9252: Launching app with identifier: com.tomclai.FirstDemo and options: {
+    arguments =     (
+        "-NSTreatUnknownArgumentsAsOpen",
+        NO,
+        "-ApplePersistenceIgnoreState",
+        YES
+    );
+    environment =     {
+        "DYLD_FRAMEWORK_PATH" = "/Users/tlai3/Test-Driven-iOS-Development-with-Swift-3/My Work/FirstDemo/DerivedData/FirstDemo/Build/Products/Debug-iphonesimulator:/Users/tlai3/Test-Driven-iOS-Development-with-Swift-3/My Work/FirstDemo/DerivedData/FirstDemo/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks";
+        "DYLD_INSERT_LIBRARIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/Developer/Library/PrivateFrameworks/DTDDISupport.framework/libViewDebuggerSupport.dylib:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/IDEBundleInjection.framework/IDEBundleInjection";
+        "DYLD_LIBRARY_PATH" = "/Users/tlai3/Test-Driven-iOS-Development-with-Swift-3/My Work/FirstDemo/DerivedData/FirstDemo/Build/Products/Debug-iphonesimulator:/Users/tlai3/Test-Driven-iOS-Development-with-Swift-3/My Work/FirstDemo/DerivedData/FirstDemo/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks";
+        NSUnbufferedIO = YES;
+        "OS_ACTIVITY_DT_MODE" = YES;
+        XCInjectBundleInto = "/Users/tlai3/Test-Driven-iOS-Development-with-Swift-3/My Work/FirstDemo/DerivedData/FirstDemo/Build/Products/Debug-iphonesimulator/FirstDemo.app/FirstDemo";
+        "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+        XCTestConfigurationFilePath = "/var/folders/j6/215n6g3n1pv4s0vzwbjxc25r4r84pm/T/com.apple.dt.XCTest/8255BA99-86AC-4783-8876-4D59FD69CEF2/remote-container/tmp/FirstDemoTests-8255BA99-86AC-4783-8876-4D59FD69CEF2.xctestconfiguration";
+        "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/tlai3/Test-Driven-iOS-Development-with-Swift-3/My Work/FirstDemo/DerivedData/FirstDemo/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/tlai3/Test-Driven-iOS-Development-with-Swift-3/My Work/FirstDemo/DerivedData/FirstDemo/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_LIBRARY_PATH" = "/Users/tlai3/Test-Driven-iOS-Development-with-Swift-3/My Work/FirstDemo/DerivedData/FirstDemo/Build/Products/Debug-iphonesimulator";
+    };
+    stderr = "/dev/ttys001";
+    stdout = "/dev/ttys001";
+    "wait_for_debugger" = 1;
+}
+18:47:53.444 Xcode[4489:2537426] DA85F919-1D45-442E-8023-4FC00A6F9252: Launched app with identifier: com.tomclai.FirstDemo (pid = 41649)
+18:47:53.444 Xcode[4489:2537426] Tracking pid 41649 for simulator <DVTiPhoneSimulator: 0x7f83ebfe8160> {
+		SimDevice: SimDevice : iPhone 6 (DA85F919-1D45-442E-8023-4FC00A6F9252) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.3 (14E269) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }
+}
+18:47:53.444 Xcode[4489:2537426] Checking to see if pid 41649 is valid: kill(pid, 0) = 0 (YES, it's still running)
+18:47:53.444 Xcode[4489:2537426] Setting up DVTTaskNotifyOnProcDeath for pid 41649
+18:47:53.444 Xcode[4489:307393] Test process runnable PID is 41649.
+18:47:55.144 Xcode[4489:307393] Waiting for test process to check in..., will wait up to 120s
+18:47:55.494 Xcode[4489:2549851] Handling proxy channel request from test runner
+18:47:55.494 Xcode[4489:2549851] Test runner is ready, running protocol 22, requires at least version 8. Control framework is running 22 and requires at least 8
+18:47:55.494 Xcode[4489:307393] Test runner session successfully initiated.
+18:47:55.494 Xcode[4489:307393] Creating the daemon control session.
+18:47:55.494 Xcode[4489:307393] Whitelisting test process ID 41649
+18:47:55.494 Xcode[4489:307393] Got authorization request for pid 41649
+18:47:55.495 Xcode[4489:2549841] Requesting authorization for pid 41649
+18:47:55.527 Xcode[4489:2549841] Got reply to authorization request for pid 41649 (result:error): 22: (null)
+18:47:55.527 Xcode[4489:307393] Got whitelisting response from test daemon. Success: 1
+18:47:48.239 testmanagerd[41586:2549854] Launched testmanagerd from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/libexec/testmanagerd, modified on Saturday, April 1, 2017 at 1:42:31 PM Pacific Daylight Time
+18:47:48.274 testmanagerd[41586:2550031] IDE connected over socket 5 (-[XCTestManagerIDEServer listenForControlConnectionsOverNamedSocket]_block_invoke)
+18:47:48.275 testmanagerd[41586:2549854] Setting availability state.
+18:47:48.275 testmanagerd[41586:2550031] Created session with socket 5
+18:47:48.276 testmanagerd[41586:2549854] Posting availability to test bundles...
+18:47:48.278 testmanagerd[41586:2550031] IDE connected over socket 7 (-[XCTestManagerIDEServer listenForControlConnectionsOverNamedSocket]_block_invoke)
+18:47:55.528 testmanagerd[41586:2549854] Received request to collect crash reports in directories '/Users/tlai3/Library/Logs/DiagnosticReports', '/Library/Logs/DiagnosticReports' for processes with names 'XCTRunner', 'FirstDemo', 'xctest'
+18:47:48.278 testmanagerd[41586:2550031] Created session with socket 7
+18:47:48.279 testmanagerd[41586:2550041] Handled a proxy request from the IDE with session <XCIDESession: 0x7fab6f200280> created Saturday, May 6, 2017 at 6:47:48 PM Pacific Daylight Time proxy <_DTXProxy: 0x7fab6d518410>
+18:47:48.280 testmanagerd[41586:2550040] Handled a proxy request from the IDE with session <XCIDESession: 0x7fab6f003180> created Saturday, May 6, 2017 at 6:47:48 PM Pacific Daylight Time proxy <_DTXProxy: 0x7fab6f002810>
+18:47:55.528 testmanagerd[41586:2549854] Initializing crash report observer for /Users/tlai3/Library/Logs/DiagnosticReports
+18:47:48.282 testmanagerd[41586:2549854] -[XCIDESession _IDE_initiateSessionWithIdentifier:forClient:atPath:protocolVersion:]_block_invoke B1B8D9DE-5DD3-4C92-BC8C-31897CE798C7 1 7 from client 5462DD19-5D62-4D09-99D3-A682BDA13FEA-4489-0000354546439F80 (/Applications/Xcode.app)
+18:47:48.282 testmanagerd[41586:2549854] -[XCIDESession _IDE_initiateSessionWithIdentifier:forClient:atPath:protocolVersion:]_block_invoke 8255BA99-86AC-4783-8876-4D59FD69CEF2 1 5 from client 5462DD19-5D62-4D09-99D3-A682BDA13FEA-4489-0000354546439F80 (/Applications/Xcode.app)
+18:47:55.529 testmanagerd[41586:2549854] Getting files in /Users/tlai3/Library/Logs/DiagnosticReports
+18:47:48.283 testmanagerd[41586:2550041] -[XCTDaemon setIDESession:forIdentifier:]_block_invoke <XCIDESession: 0x7fab6f003180> created Saturday, May 6, 2017 at 6:47:48 PM Pacific Daylight Time for client 5462DD19-5D62-4D09-99D3-A682BDA13FEA-4489-0000354546439F80 waiting to pair with test session B1B8D9DE-5DD3-4C92-BC8C-31897CE798C7 -> B1B8D9DE-5DD3-4C92-BC8C-31897CE798C7
+18:47:48.284 testmanagerd[41586:2550041] -[XCTDaemon _queue_handleRequestForSessionWithIdentifier:]
+18:47:48.284 testmanagerd[41586:2550041] -[XCTDaemon setIDESession:forIdentifier:]_block_invoke <XCIDESession: 0x7fab6f200280> created Saturday, May 6, 2017 at 6:47:48 PM Pacific Daylight Time for client 5462DD19-5D62-4D09-99D3-A682BDA13FEA-4489-0000354546439F80 waiting to pair with test session 8255BA99-86AC-4783-8876-4D59FD69CEF2 -> 8255BA99-86AC-4783-8876-4D59FD69CEF2
+18:47:48.285 testmanagerd[41586:2550041] -[XCTDaemon _queue_handleRequestForSessionWithIdentifier:]
+18:47:53.276 testmanagerd[41586:2550041] Considering exiting:
+18:47:53.277 testmanagerd[41586:2550041] Session summary: 0 test sessions, 2 sessions with identifiers, 0 unidentified sessions, does not have control session
+18:47:53.277 testmanagerd[41586:2550041] Unpaired test sessions: {
+    "8255BA99-86AC-4783-8876-4D59FD69CEF2" = "<XCIDESession: 0x7fab6f200280> created Saturday, May 6, 2017 at 6:47:48 PM Pacific Daylight Time for client 5462DD19-5D62-4D09-99D3-A682BDA13FEA-4489-0000354546439F80 waiting to pair with test session 8255BA99-86AC-4783-8876-4D59FD69CEF2";
+    "B1B8D9DE-5DD3-4C92-BC8C-31897CE798C7" = "<XCIDESession: 0x7fab6f003180> created Saturday, May 6, 2017 at 6:47:48 PM Pacific Daylight Time for client 5462DD19-5D62-4D09-99D3-A682BDA13FEA-4489-0000354546439F80 waiting to pair with test session B1B8D9DE-5DD3-4C92-BC8C-31897CE798C7";
+}
+18:47:55.384 testmanagerd[41586:2550041] Received new test session connection from process with PID 41649
+18:47:55.387 testmanagerd[41586:2549854] Initial orientation 0
+18:47:55.388 testmanagerd[41586:2550041] Test session 8255BA99-86AC-4783-8876-4D59FD69CEF2 requested socket (-[XCTestSession _XCT_requestSocketForSessionIdentifier:reply:])
+18:47:55.388 testmanagerd[41586:2550037] Test session 8255BA99-86AC-4783-8876-4D59FD69CEF2 requested socket (-[XCTDaemon requestSocketForSessionIdentifier:reply:]_block_invoke)
+18:47:55.389 testmanagerd[41586:2550037] -[XCTDaemon _queue_handleRequestForSessionWithIdentifier:]
+18:47:55.389 testmanagerd[41586:2550037] Closing IDE connection before sending socket 9 to test host.
+18:47:55.389 testmanagerd[41586:2550037] -[XCIDESession closeIDEConnection:] sending barrier
+18:47:55.389 testmanagerd[41586:2549854] barrier flushed, closing DTXConnection to IDE, socket will not be closed
+18:47:55.389 testmanagerd[41586:2550366] app info {
+    BKSApplicationStateAppIsFrontmost = 1;
+    BKSApplicationStateExtensionKey = 0;
+    SBApplicationStateDisplayIDKey = "com.tomclai.FirstDemo";
+    SBApplicationStateKey = 8;
+    SBApplicationStateProcessIDKey = 41649;
+    SBMostElevatedStateForProcessID = 8;
+}
+18:47:55.390 testmanagerd[41586:2550366] Got request for process assertion for pid 41649.
+18:47:55.390 testmanagerd[41586:2550041] DTXSocketTransport disconnected, owner is <XCIDESession: 0x7fab6f200280> created Saturday, May 6, 2017 at 6:47:48 PM Pacific Daylight Time for client 5462DD19-5D62-4D09-99D3-A682BDA13FEA-4489-0000354546439F80 waiting to pair with test session 8255BA99-86AC-4783-8876-4D59FD69CEF2
+18:47:55.390 testmanagerd[41586:2550037] -[XCTDaemon closeIDESession:]_block_invoke <XCIDESession: 0x7fab6f200280> created Saturday, May 6, 2017 at 6:47:48 PM Pacific Daylight Time for client 5462DD19-5D62-4D09-99D3-A682BDA13FEA-4489-0000354546439F80 waiting to pair with test session 8255BA99-86AC-4783-8876-4D59FD69CEF2
+18:47:55.391 testmanagerd[41586:2550037] Considering exiting:
+18:47:55.532 testmanagerd[41586:2549854] Found 97 files in /Users/tlai3/Library/Logs/DiagnosticReports
+18:47:55.391 testmanagerd[41586:2550037] Session summary: 1 test sessions, 1 sessions with identifiers, 0 unidentified sessions, does not have control session
+18:47:55.391 testmanagerd[41586:2550366] Created process assertion for pid 41649: <BKSProcessAssertion: 0x7fab6d7058b0>, waiting for response from assertiond.
+18:47:55.533 testmanagerd[41586:2549854] Started monitoring /Users/tlai3/Library/Logs/DiagnosticReports
+18:47:55.391 testmanagerd[41586:2550037] Unpaired test sessions: {
+    "B1B8D9DE-5DD3-4C92-BC8C-31897CE798C7" = "<XCIDESession: 0x7fab6f003180> created Saturday, May 6, 2017 at 6:47:48 PM Pacific Daylight Time for client 5462DD19-5D62-4D09-99D3-A682BDA13FEA-4489-0000354546439F80 waiting to pair with test session B1B8D9DE-5DD3-4C92-BC8C-31897CE798C7";
+}
+18:47:55.392 testmanagerd[41586:2550037] Got reply for process assertion request, success: YES
+18:47:55.392 testmanagerd[41586:2550366] Starting to monitor com.tomclai.FirstDemo
+18:47:55.533 testmanagerd[41586:2549854] Initializing crash report observer for /Library/Logs/DiagnosticReports
+18:47:55.393 testmanagerd[41586:2550366] Got application state update: com.tomclai.FirstDemo (41649) -> 8
+18:47:55.491 testmanagerd[41586:2549854] Sending socket 9 to test host
+18:47:55.534 testmanagerd[41586:2549854] Getting files in /Library/Logs/DiagnosticReports
+18:47:55.492 testmanagerd[41586:2550038] -[XCTDaemon closeIDESession:]_block_invoke <XCIDESession: 0x7fab6f200280> created Saturday, May 6, 2017 at 6:47:48 PM Pacific Daylight Time for client 5462DD19-5D62-4D09-99D3-A682BDA13FEA-4489-0000354546439F80 waiting to pair with test session 8255BA99-86AC-4783-8876-4D59FD69CEF2
+18:47:55.493 testmanagerd[41586:2550038] Considering exiting:
+18:47:55.493 testmanagerd[41586:2550038] Session summary: 1 test sessions, 1 sessions with identifiers, 0 unidentified sessions, does not have control session
+18:47:55.493 testmanagerd[41586:2550038] Unpaired test sessions: {
+    "B1B8D9DE-5DD3-4C92-BC8C-31897CE798C7" = "<XCIDESession: 0x7fab6f003180> created Saturday, May 6, 2017 at 6:47:48 PM Pacific Daylight Time for client 5462DD19-5D62-4D09-99D3-A682BDA13FEA-4489-0000354546439F80 waiting to pair with test session B1B8D9DE-5DD3-4C92-BC8C-31897CE798C7";
+}
+18:47:55.524 testmanagerd[41586:2550038] IDE connected over socket 6 (-[XCTestManagerIDEServer listenForControlConnectionsOverNamedSocket]_block_invoke)
+18:47:55.524 testmanagerd[41586:2550038] Created session with socket 6
+18:47:55.526 testmanagerd[41586:2550041] Handled a proxy request from the IDE with session <XCIDESession: 0x7fab6d600230> created Saturday, May 6, 2017 at 6:47:55 PM Pacific Daylight Time proxy <_DTXProxy: 0x7fab6d51c4a0>
+18:47:55.526 testmanagerd[41586:2550041] -[XCIDESession _IDE_initiateControlSessionForTestProcessID:protocolVersion:] 41649 22
+18:47:55.526 testmanagerd[41586:2549854] Set control session <XCIDESession: 0x7fab6d600230> created Saturday, May 6, 2017 at 6:47:55 PM Pacific Daylight Time with proto 22 and proxy <_DTXProxy: 0x7fab6d51c4a0>
+18:47:55.537 testmanagerd[41586:2549854] Found 268 files in /Library/Logs/DiagnosticReports
+18:47:55.538 testmanagerd[41586:2549854] Started monitoring /Library/Logs/DiagnosticReports
+18:47:55.382 FirstDemo[41649:2550289] Linked XCTest.framework from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/XCTest, built with Xcode 0832(), modified on Wednesday, April 12, 2017 at 11:49:43 AM Pacific Daylight Time
+18:47:55.382 FirstDemo[41649:2550289] XCTest.framework bundle version: 12124
+18:47:55.383 FirstDemo[41649:2550289] System uptime: 17:06:57
+18:47:55.383 FirstDemo[41649:2550289] Process arguments: (
+    "/Users/tlai3/Library/Developer/CoreSimulator/Devices/DA85F919-1D45-442E-8023-4FC00A6F9252/data/Containers/Bundle/Application/512E356A-1C2B-40E4-BA5B-9951E9BB68C7/FirstDemo.app/FirstDemo",
+    "-NSTreatUnknownArgumentsAsOpen",
+    NO,
+    "-ApplePersistenceIgnoreState",
+    YES
+)
+18:47:55.383 FirstDemo[41649:2550289] Process environment: {
+    "CFFIXED_USER_HOME" = "/Users/tlai3/Library/Developer/CoreSimulator/Devices/DA85F919-1D45-442E-8023-4FC00A6F9252/data/Containers/Data/Application/593FEAEF-6849-45DA-BFAC-B4C36B5E618E";
+    CLASSIC = 0;
+    "CUPS_SERVER" = "/private/tmp/com.apple.launchd.htoe48qjI6/Listeners";
+    "DYLD_FALLBACK_FRAMEWORK_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks";
+    "DYLD_FALLBACK_LIBRARY_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/lib";
+    "DYLD_FRAMEWORK_PATH" = "/Users/tlai3/Test-Driven-iOS-Development-with-Swift-3/My Work/FirstDemo/DerivedData/FirstDemo/Build/Products/Debug-iphonesimulator:/Users/tlai3/Test-Driven-iOS-Development-with-Swift-3/My Work/FirstDemo/DerivedData/FirstDemo/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks";
+    "DYLD_INSERT_LIBRARIES" = "";
+    "DYLD_LIBRARY_PATH" = "/Users/tlai3/Test-Driven-iOS-Development-with-Swift-3/My Work/FirstDemo/DerivedData/FirstDemo/Build/Products/Debug-iphonesimulator:/Users/tlai3/Test-Driven-iOS-Development-with-Swift-3/My Work/FirstDemo/DerivedData/FirstDemo/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks";
+    "DYLD_ROOT_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "DYLD_SHARED_REGION" = avoid;
+    HOME = "/Users/tlai3/Library/Developer/CoreSimulator/Devices/DA85F919-1D45-442E-8023-4FC00A6F9252/data/Containers/Data/Application/593FEAEF-6849-45DA-BFAC-B4C36B5E618E";
+    "IOS_SIMULATOR_SYSLOG_SOCKET" = "/private/tmp/com.apple.CoreSimulator.SimDevice.DA85F919-1D45-442E-8023-4FC00A6F9252.launchd_sim/syslogsock";
+    "IPHONE_SHARED_RESOURCES_DIRECTORY" = "/Users/tlai3/Library/Developer/CoreSimulator/Devices/DA85F919-1D45-442E-8023-4FC00A6F9252/data";
+    "IPHONE_SIMULATOR_CLASS" = N61;
+    "IPHONE_SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "IPHONE_TVOUT_EXTENDED_PROPERTIES" = "/Users/tlai3/Library/Developer/CoreSimulator/Devices/DA85F919-1D45-442E-8023-4FC00A6F9252/data/Library/Application Support/Simulator/extended_display.plist";
+    NSUnbufferedIO = YES;
+    "OS_ACTIVITY_DT_MODE" = YES;
+    PATH = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/local/bin";
+    "SIMULATOR_CAPABILITIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/CoreSimulator/Profiles/DeviceTypes/iPhone 6.simdevicetype/Contents/Resources/capabilities.plist";
+    "SIMULATOR_DEVICE_NAME" = "iPhone 6";
+    "SIMULATOR_EXTENDED_DISPLAY_PROPERTIES" = "/Users/tlai3/Library/Developer/CoreSimulator/Devices/DA85F919-1D45-442E-8023-4FC00A6F9252/data/Library/Application Support/Simulator/extended_display.plist";
+    "SIMULATOR_HID_SYSTEM_MANAGER" = "/Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/Resources/Platforms/iphoneos/SimulatorHID.framework";
+    "SIMULATOR_HOST_HOME" = "/Users/tlai3";
+    "SIMULATOR_LEGACY_ASSET_SUFFIX" = iphone;
+    "SIMULATOR_LOG_ROOT" = "/Users/tlai3/Library/Logs/CoreSimulator/DA85F919-1D45-442E-8023-4FC00A6F9252";
+    "SIMULATOR_MAINSCREEN_HEIGHT" = 1334;
+    "SIMULATOR_MAINSCREEN_PITCH" = "326.000000";
+    "SIMULATOR_MAINSCREEN_SCALE" = "2.000000";
+    "SIMULATOR_MAINSCREEN_WIDTH" = 750;
+    "SIMULATOR_MEMORY_WARNINGS" = "/Users/tlai3/Library/Developer/CoreSimulator/Devices/DA85F919-1D45-442E-8023-4FC00A6F9252/data/var/run/memory_warning_simulation";
+    "SIMULATOR_MODEL_IDENTIFIER" = "iPhone7,2";
+    "SIMULATOR_PLATFORM_RUNTIME_OVERLAY_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/CoreSimulator/RuntimeOverlay";
+    "SIMULATOR_PRODUCT_CLASS" = N61;
+    "SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "SIMULATOR_RUNTIME_BUILD_VERSION" = 14E269;
+    "SIMULATOR_RUNTIME_VERSION" = "10.3";
+    "SIMULATOR_SHARED_RESOURCES_DIRECTORY" = "/Users/tlai3/Library/Developer/CoreSimulator/Devices/DA85F919-1D45-442E-8023-4FC00A6F9252/data";
+    "SIMULATOR_UDID" = "DA85F919-1D45-442E-8023-4FC00A6F9252";
+    "SIMULATOR_VERSION_INFO" = "CoreSimulator 375.21 - Device: iPhone 6 - Runtime: iOS 10.3 (14E269) - DeviceType: iPhone 6";
+    "TESTMANAGERD_SIM_SOCK" = "/private/tmp/com.apple.launchd.EGzxlXSITG/com.apple.testmanagerd.unix-domain.socket";
+    TMPDIR = "/Users/tlai3/Library/Developer/CoreSimulator/Devices/DA85F919-1D45-442E-8023-4FC00A6F9252/data/Containers/Data/Application/593FEAEF-6849-45DA-BFAC-B4C36B5E618E/tmp";
+    XCInjectBundleInto = "/Users/tlai3/Test-Driven-iOS-Development-with-Swift-3/My Work/FirstDemo/DerivedData/FirstDemo/Build/Products/Debug-iphonesimulator/FirstDemo.app/FirstDemo";
+    "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+    XCTestConfigurationFilePath = "/var/folders/j6/215n6g3n1pv4s0vzwbjxc25r4r84pm/T/com.apple.dt.XCTest/8255BA99-86AC-4783-8876-4D59FD69CEF2/remote-container/tmp/FirstDemoTests-8255BA99-86AC-4783-8876-4D59FD69CEF2.xctestconfiguration";
+    "XPC_FLAGS" = 0x0;
+    "XPC_SERVICE_NAME" = "UIKitApplication:com.tomclai.FirstDemo[0x7332][39146]";
+    "XPC_SIMULATOR_LAUNCHD_NAME" = "com.apple.CoreSimulator.SimDevice.DA85F919-1D45-442E-8023-4FC00A6F9252.launchd_sim";
+    "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/tlai3/Test-Driven-iOS-Development-with-Swift-3/My Work/FirstDemo/DerivedData/FirstDemo/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/tlai3/Test-Driven-iOS-Development-with-Swift-3/My Work/FirstDemo/DerivedData/FirstDemo/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_LIBRARY_PATH" = "/Users/tlai3/Test-Driven-iOS-Development-with-Swift-3/My Work/FirstDemo/DerivedData/FirstDemo/Build/Products/Debug-iphonesimulator";
+}
+18:47:55.384 FirstDemo[41649:2550289] <XCTWaiter: 0x61800001f610> entering wait loop for 5.00s
+18:47:55.388 FirstDemo[41649:2550362] Got daemon protocol version 12
+18:47:55.388 FirstDemo[41649:2550351] <XCTWaiter: 0x61800001f610>: cancelWaiting
+18:47:55.388 FirstDemo[41649:2550289] <XCTWaiter: 0x61800001f610> done waiting
+18:47:55.388 FirstDemo[41649:2550289] <XCTWaiter: 0x61800001f610> cleaning up Exchange protocol versions with daemon
+18:47:55.388 FirstDemo[41649:2550289] Requesting socket
+18:47:55.388 FirstDemo[41649:2550289] <XCTWaiter: 0x61000001ecd0> entering wait loop for 30.00s
+18:47:55.492 FirstDemo[41649:2550351] <XCTWaiter: 0x61000001ecd0>: cancelWaiting
+18:47:55.492 FirstDemo[41649:2550289] <XCTWaiter: 0x61000001ecd0> done waiting
+18:47:55.492 FirstDemo[41649:2550289] <XCTWaiter: 0x61000001ecd0> cleaning up Socket for IDE session acquired
+18:47:55.492 FirstDemo[41649:2550289] Creating transport with socket 7
+18:47:55.493 FirstDemo[41649:2550289] Creating connection with transport <DTXSocketTransport: 0x60000010b880>
+18:47:55.493 FirstDemo[41649:2550289] Creating the proxy channel with connection <DTXConnection 0x6080001e5500 : x1>
+18:47:55.494 FirstDemo[41649:2550289] Messaging IDE proxy - _XCT_testBundleReadyWithProtocolVersion:22 minimumVersion:8
+18:47:55.494 FirstDemo[41649:2550289] <XCTWaiter: 0x61000001e810> entering wait loop for 30.00s
+18:47:55.494 FirstDemo[41649:2550363] _XCT_testBundleReadyWithProtocolVersion:minimumVersion: reply received
+18:47:55.539 FirstDemo[41649:2550362] _IDE_startExecutingTestPlanWithProtocolVersion:22
+18:47:55.539 FirstDemo[41649:2550363] <XCTWaiter: 0x61000001e810>: cancelWaiting
+18:47:55.539 FirstDemo[41649:2550289] <XCTWaiter: 0x61000001e810> done waiting
+18:47:55.539 FirstDemo[41649:2550289] <XCTWaiter: 0x61000001e810> cleaning up IDE session ready for test plan
+18:47:55.542 Xcode[4489:307393] Starting test plan, clearing initialization timeout timer.
+18:47:55.542 FirstDemo[41649:2550289] Loading test suite...
+18:47:55.579 FirstDemo[41649:2550289] Finished loading test suite, took 0.037s
+Test Suite 'All tests' started at 2017-05-06 18:47:55.579
+18:47:55.579 FirstDemo[41649:2550289] -[XCTRunnerIDESession testBundleWillStart:]
+18:47:55.579 FirstDemo[41649:2550289] Running suite...
+18:47:55.579 FirstDemo[41649:2550289] -[XCTRunnerIDESession testSuiteWillStart:]
+18:47:55.583 Xcode[4489:307393] _XCT_testSuite:All tests didStartAt:2017-05-07 01:47:55 +0000
+18:47:55.583 Xcode[4489:2544270] (LOG ARBITER) Rotating message buffer with 8 messages.
+18:47:55.599 Xcode[4489:2549912] (LOG ARBITER) Dumping buffered message data; 8 messages.
+Test Case '-[FirstDemoTests.FirstDemoTests test_MakeHeadline_ReturnsStringWithEachWordStartCapital]' started.
+Test Case '-[FirstDemoTests.FirstDemoTests test_MakeHeadline_ReturnsStringWithEachWordStartCapital]' passed (0.004 seconds).
+18:47:55.584 FirstDemo[41649:2550289] -[XCTRunnerIDESession testCaseDidFinish:]
+18:47:55.599 Xcode[4489:307393] _XCT_testCaseDidFinishForTestClass:FirstDemoTests.FirstDemoTests method:test_MakeHeadline_ReturnsStringWithEachWordStartCapital withStatus:passed duration:0.004405975341796875
+18:47:55.599 Xcode[4489:307393] _XCT_testCaseDidStartForTestClass:FirstDemoTests.FirstDemoTests method:test_MakeHeadline_ReturnsStringWithEachWordStartCapital2
+18:47:55.584 FirstDemo[41649:2550289] -[XCTRunnerIDESession testCaseWillStart:] FirstDemoTests.FirstDemoTests test_MakeHeadline_ReturnsStringWithEachWordStartCapital2
+18:47:55.592 FirstDemo[41649:2550289] -[XCTRunnerIDESession testCase:didFailWithDescription:inFile:atLine:]
+18:47:55.599 Xcode[4489:307393] _XCT_testCaseDidFailForTestClass:FirstDemoTests.FirstDemoTests method:test_MakeHeadline_ReturnsStringWithEachWordStartCapital2 withMessage:XCTAssertEqual failed: ("This Is A Test Headline") is not equal to ("Here Is Another Example") -  file:/Users/tlai3/Test-Driven-iOS-Development-with-Swift-3/My Work/FirstDemo/FirstDemoTests/FirstDemoTests.swift line:40
+18:47:55.593 FirstDemo[41649:2550289] -[XCTRunnerIDESession testCaseDidFinish:]
+18:47:55.599 Xcode[4489:307393] _XCT_testCaseDidFinishForTestClass:FirstDemoTests.FirstDemoTests method:test_MakeHeadline_ReturnsStringWithEachWordStartCapital2 withStatus:failed duration:0.008723974227905273
+18:47:55.599 Xcode[4489:2549992] (LOG ARBITER) Dumping buffered message data; 0 messages.
+18:47:55.599 Xcode[4489:307393] _XCT_testCaseDidStartForTestClass:FirstDemoTests.FirstDemoTests method:test_NumberOfVowels_WhenPassedDominik_ReturnsThree
+18:47:55.593 FirstDemo[41649:2550289] -[XCTRunnerIDESession testCaseWillStart:] FirstDemoTests.FirstDemoTests test_NumberOfVowels_WhenPassedDominik_ReturnsThree
+18:47:55.596 FirstDemo[41649:2550289] -[XCTRunnerIDESession testCaseDidFinish:]
+18:47:55.599 Xcode[4489:307393] _XCT_testCaseDidFinishForTestClass:FirstDemoTests.FirstDemoTests method:test_NumberOfVowels_WhenPassedDominik_ReturnsThree withStatus:passed duration:0.003178000450134277
+18:47:55.597 FirstDemo[41649:2550289] -[XCTRunnerIDESession testSuiteDidFinish:]
+18:47:55.599 Xcode[4489:307393] _XCT_testSuite:FirstDemoTests didFinishAt:2017-05-07 01:47:55 +0000 runCount:3 withFailures:1 unexpected:0 testDuration:0.01630795001983643 totalDuration:0.01708602905273438
+Test Case '-[FirstDemoTests.FirstDemoTests test_MakeHeadline_ReturnsStringWithEachWordStartCapital2]' started.
+/Users/tlai3/Test-Driven-iOS-Development-with-Swift-3/My Work/FirstDemo/FirstDemoTests/FirstDemoTests.swift:40: error: -[FirstDemoTests.FirstDemoTests test_MakeHeadline_ReturnsStringWithEachWordStartCapital2] : XCTAssertEqual failed: ("This Is A Test Headline") is not equal to ("Here Is Another Example") - 
+Test Case '-[FirstDemoTests.FirstDemoTests test_MakeHeadline_ReturnsStringWithEachWordStartCapital2]' failed (0.009 seconds).
+Test Case '-[FirstDemoTests.FirstDemoTests test_NumberOfVowels_WhenPassedDominik_ReturnsThree]' started.
+Test Case '-[FirstDemoTests.FirstDemoTests test_NumberOfVowels_WhenPassedDominik_ReturnsThree]' passed (0.003 seconds).
+Test Suite 'FirstDemoTests' failed at 2017-05-06 18:47:55.597.
+	 Executed 3 tests, with 1 failure (0 unexpected) in 0.016 (0.017) seconds
+Test Suite 'FirstDemoTests.xctest' failed at 2017-05-06 18:47:55.597.
+	 Executed 3 tests, with 1 failure (0 unexpected) in 0.016 (0.018) seconds
+18:47:55.599 FirstDemo[41649:2550289] -[XCTRunnerIDESession testSuiteDidFinish:]
+18:47:55.618 Xcode[4489:307393] _XCT_testSuite:FirstDemoTests.xctest didFinishAt:2017-05-07 01:47:55 +0000 runCount:3 withFailures:1 unexpected:0 testDuration:0.01630795001983643 totalDuration:0.01751601696014404
+18:47:55.599 FirstDemo[41649:2550289] -[XCTRunnerIDESession testSuiteDidFinish:]
+18:47:55.618 Xcode[4489:307393] _XCT_testSuite:All tests didFinishAt:2017-05-07 01:47:55 +0000 runCount:3 withFailures:1 unexpected:0 testDuration:0.01630795001983643 totalDuration:0.02046400308609009
+18:47:55.599 FirstDemo[41649:2550289] Finished running suite.
+18:47:55.618 Xcode[4489:307393] -[XCTTestRunnerSession _XCT_didFinishExecutingTestPlan]_block_invoke
+18:47:55.599 FirstDemo[41649:2550289] -[XCTRunnerIDESession testBundleDidFinish:], Flushing connection to IDE...
+18:47:55.600 FirstDemo[41649:2550289] Calling completion.
+18:47:55.600 FirstDemo[41649:2550289] <XCTWaiter: 0x61000001eda0> entering wait loop for 15.00s
+18:47:55.712 Xcode[4489:307393] _finishWithError:(null) didCancel: 0

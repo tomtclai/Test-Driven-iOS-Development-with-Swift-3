@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "2ab0eac7ac68f44e81770d5825e50b5d"
+build_time: [547435956, 228587000]
+inputs:
+  "/Users/tlai3/Test-Driven-iOS-Development-with-Swift-3/My Work/FirstDemo/FirstDemoUITests/FirstDemoUITests.swift": [547433057, 0]

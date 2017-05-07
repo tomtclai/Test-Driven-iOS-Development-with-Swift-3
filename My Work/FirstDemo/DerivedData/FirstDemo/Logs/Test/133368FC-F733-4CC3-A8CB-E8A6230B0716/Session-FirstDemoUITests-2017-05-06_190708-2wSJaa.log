@@ -1,0 +1,72 @@
+19:07:08.683 Xcode[4489:307393] Beginning test session FirstDemoUITests-978FD07A-6248-4265-B3D5-B5056EA50982 at 2017-05-06 19:07:08.683 with Xcode 8E2002 on target <DVTiPhoneSimulator: 0x7f83ebfe8160> {
+		SimDevice: SimDevice : iPhone 6 (DA85F919-1D45-442E-8023-4FC00A6F9252) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.3 (14E269) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }
+} (10.3 (14E269))
+19:07:08.683 Xcode[4489:307393] Launching with Xcode.DebuggerFoundation.Launcher.LLDB
+19:07:08.683 Xcode[4489:2592086] Sim iPhone 6: Unregistering for sim device notification with token 120
+19:07:08.684 Xcode[4489:2592086] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+19:07:08.684 Xcode[4489:2592086] Sim iPhone 6 has testmanagerd socket at /private/tmp/com.apple.launchd.EGzxlXSITG/com.apple.testmanagerd.unix-domain.socket
+19:07:08.684 Xcode[4489:2592086] Validating test connection socket path (/private/tmp/com.apple.launchd.EGzxlXSITG/com.apple.testmanagerd.unix-domain.socket)
+19:07:08.684 Xcode[4489:2592086] Constructing transport for test connection socket
+19:07:08.684 Xcode[4489:2592086] Connected socket 161 to testmanagerd for Sim iPhone 6
+19:07:08.684 Xcode[4489:2592086] Received connection for test runner session
+19:07:08.684 Xcode[4489:2592086] Listening for proxy connection request from the test bundle
+19:07:08.685 Xcode[4489:2592086] Initiating session with identifier: 978FD07A-6248-4265-B3D5-B5056EA50982
+19:07:08.725 Xcode[4489:307393] Received Ready from iOSSimulator
+19:07:08.725 Xcode[4489:307393] Sending notification: NSConcreteNotification 0x7f83ce30e780 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "DA85F919-1D45-442E-8023-4FC00A6F9252";
+}}
+19:07:08.725 Xcode[4489:307393] Received Ready from iOSSimulator
+19:07:08.725 Xcode[4489:307393] Sending notification: NSConcreteNotification 0x7f83df8562b0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "DA85F919-1D45-442E-8023-4FC00A6F9252";
+}}
+19:07:08.751 Xcode[4489:307393] Test runner session acquired connection.
+19:07:08.751 Xcode[4489:307393] Waiting for test process to launch.
+19:07:09.194 Xcode[4489:2592119] Got reply to session initiation request with identifier 978FD07A-6248-4265-B3D5-B5056EA50982 (result:error): 22: (null)
+19:07:11.290 Xcode[4489:307393] Received Ready from iOSSimulator
+19:07:11.290 Xcode[4489:307393] Sending notification: NSConcreteNotification 0x7f83d0f00620 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "DA85F919-1D45-442E-8023-4FC00A6F9252";
+}}
+19:07:11.295 Xcode[4489:2595266] DA85F919-1D45-442E-8023-4FC00A6F9252: Registered for sim device notification, got token 121
+19:07:11.295 Xcode[4489:2592946] DA85F919-1D45-442E-8023-4FC00A6F9252: Unregistering for sim device notification with token 121
+19:07:11.297 Xcode[4489:2592946] DA85F919-1D45-442E-8023-4FC00A6F9252: Installing app at path: /Users/tlai3/Test-Driven-iOS-Development-with-Swift-3/My Work/FirstDemo/DerivedData/FirstDemo/Build/Products/Debug-iphonesimulator/FirstDemo.app and options: {
+    CFBundleIdentifier = "com.tomclai.FirstDemo";
+}
+19:07:11.319 Xcode[4489:307393] Received Ready from iOSSimulator
+19:07:11.319 Xcode[4489:307393] Sending notification: NSConcreteNotification 0x7f83ce6e19d0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "DA85F919-1D45-442E-8023-4FC00A6F9252";
+}}
+19:07:15.920 Xcode[4489:2592946] DA85F919-1D45-442E-8023-4FC00A6F9252: Installed app at path: /Users/tlai3/Test-Driven-iOS-Development-with-Swift-3/My Work/FirstDemo/DerivedData/FirstDemo/Build/Products/Debug-iphonesimulator/FirstDemo.app and options: {
+    CFBundleIdentifier = "com.tomclai.FirstDemo";
+}
+19:07:15.921 Xcode[4489:2592946] DA85F919-1D45-442E-8023-4FC00A6F9252: Launching app with identifier: com.tomclai.FirstDemo and options: {
+    arguments =     (
+        "-NSTreatUnknownArgumentsAsOpen",
+        NO,
+        "-ApplePersistenceIgnoreState",
+        YES
+    );
+    environment =     {
+        "DYLD_FRAMEWORK_PATH" = "/Users/tlai3/Test-Driven-iOS-Development-with-Swift-3/My Work/FirstDemo/DerivedData/FirstDemo/Build/Products/Debug-iphonesimulator:/Users/tlai3/Test-Driven-iOS-Development-with-Swift-3/My Work/FirstDemo/DerivedData/FirstDemo/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks";
+        "DYLD_INSERT_LIBRARIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/Developer/Library/PrivateFrameworks/DTDDISupport.framework/libViewDebuggerSupport.dylib:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/IDEBundleInjection.framework/IDEBundleInjection";
+        "DYLD_LIBRARY_PATH" = "/Users/tlai3/Test-Driven-iOS-Development-with-Swift-3/My Work/FirstDemo/DerivedData/FirstDemo/Build/Products/Debug-iphonesimulator:/Users/tlai3/Test-Driven-iOS-Development-with-Swift-3/My Work/FirstDemo/DerivedData/FirstDemo/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks";
+        NSUnbufferedIO = YES;
+        "OS_ACTIVITY_DT_MODE" = YES;
+        XCInjectBundleInto = "/Users/tlai3/Test-Driven-iOS-Development-with-Swift-3/My Work/FirstDemo/DerivedData/FirstDemo/Build/Products/Debug-iphonesimulator/FirstDemo.app/FirstDemo";
+        "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+        XCTestConfigurationFilePath = "/var/folders/j6/215n6g3n1pv4s0vzwbjxc25r4r84pm/T/com.apple.dt.XCTest/9E829BB3-88AB-4270-BC43-AE3AEDDF4320/remote-container/tmp/FirstDemoTests-9E829BB3-88AB-4270-BC43-AE3AEDDF4320.xctestconfiguration";
+        "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/tlai3/Test-Driven-iOS-Development-with-Swift-3/My Work/FirstDemo/DerivedData/FirstDemo/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/tlai3/Test-Driven-iOS-Development-with-Swift-3/My Work/FirstDemo/DerivedData/FirstDemo/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_LIBRARY_PATH" = "/Users/tlai3/Test-Driven-iOS-Development-with-Swift-3/My Work/FirstDemo/DerivedData/FirstDemo/Build/Products/Debug-iphonesimulator";
+    };
+    stderr = "/dev/ttys001";
+    stdout = "/dev/ttys001";
+    "wait_for_debugger" = 1;
+}
+19:07:15.960 Xcode[4489:2591991] DA85F919-1D45-442E-8023-4FC00A6F9252: Launched app with identifier: com.tomclai.FirstDemo (pid = 42547)
+19:07:15.960 Xcode[4489:2591991] Tracking pid 42547 for simulator <DVTiPhoneSimulator: 0x7f83ebfe8160> {
+		SimDevice: SimDevice : iPhone 6 (DA85F919-1D45-442E-8023-4FC00A6F9252) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6 } runtime={ SimRuntime : 10.3 (14E269) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }
+}
+19:07:15.960 Xcode[4489:2591991] Checking to see if pid 42547 is valid: kill(pid, 0) = 0 (YES, it's still running)
+19:07:15.960 Xcode[4489:2591991] Setting up DVTTaskNotifyOnProcDeath for pid 42547
+19:07:23.399 Xcode[4489:307393] Test operation failure: Test operation was canceled.
+19:07:23.399 Xcode[4489:307393] _finishWithError:Error Domain=IDETestOperationsObserverErrorDomain Code=4 "Test operation was canceled." UserInfo={NSLocalizedDescription=Test operation was canceled.} didCancel: 1
