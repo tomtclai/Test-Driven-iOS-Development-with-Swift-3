@@ -31,5 +31,10 @@ class LocationTests: XCTestCase {
         XCTAssertEqual(location.coordinate?.latitude, coordinate.latitude)
         XCTAssertEqual(location.coordinate?.longitude, coordinate.longitude)
     }
-    
+ 
+    func testEqualLocationsAreEQual() {
+        let first = Location(name: "Foo")
+        let second = Location(name: "Foo")
+        XCTAssertEqual(first, second)
+    }
 }
