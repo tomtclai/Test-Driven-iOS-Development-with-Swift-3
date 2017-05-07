@@ -1,6 +1,0 @@
-version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
-options: "3e0aa99304d7949e864d803e80883894"
-build_time: [547433060, 176929000]
-inputs:
-  "/Users/tlai3/Test-Driven-iOS-Development-with-Swift-3/My Work/FirstDemo/FirstDemo/ViewController.swift": [547433057, 0]
-  "/Users/tlai3/Test-Driven-iOS-Development-with-Swift-3/My Work/FirstDemo/FirstDemo/AppDelegate.swift": [547433057, 0]
