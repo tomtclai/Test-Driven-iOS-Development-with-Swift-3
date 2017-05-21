@@ -32,9 +32,17 @@ class LocationTests: XCTestCase {
         XCTAssertEqual(location.coordinate?.longitude, coordinate.longitude)
     }
  
-    func testEqualLocationsAreEQual() {
+    func testEqualLocationsAreEqual() {
         let first = Location(name: "Foo")
         let second = Location(name: "Foo")
         XCTAssertEqual(first, second)
+    }
+    
+    func testLocationsWhenLatitudeDIffersAreNotEqual() {
+        let firstCoordinate = CLLocationCoordinate2D(latitude: 1, longitude: 0)
+        let firstLocation = Location(name: "Foo", coordinate: firstCoordinate)
+        let secondCoordinate = CLLocationCoordinate2D(latitude: 0, longitude: 0)
+        let secondLocation = Location(name: "Foo", coordinate: secondCoordinate)
+        XCTAssertNotEqual(firstLocation, secondLocation)
     }
 }
