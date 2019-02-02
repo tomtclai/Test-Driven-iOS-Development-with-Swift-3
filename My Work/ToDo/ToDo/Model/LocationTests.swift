@@ -50,7 +50,7 @@ class LocationTests: XCTestCase {
                              firstCoordinate: (0, 1),
                              secondCoordinate: (0, 0))
     }
-    func performNotEqualTests(withFirstName firstName: String, secondName: String, firstCoordinate: (latitude: Double, longitude: Double), secondCoordinate: (longitude: Double, latitude: Double)) {
+    func performNotEqualTests(withFirstName firstName: String, secondName: String, firstCoordinate: (latitude: Double, longitude: Double)?, secondCoordinate: (longitude: Double, latitude: Double)? ) {
         let firstLocation = Location(name: firstName, coordinate: CLLocationCoordinate2D(latitude: firstCoordinate.latitude, longitude: firstCoordinate.longitude))
         let secondLocation = Location(name: secondName, coordinate: CLLocationCoordinate2D(latitude: secondCoordinate.latitude, longitude: secondCoordinate.longitude))
         XCTAssertNotEqual(firstLocation, secondLocation)
